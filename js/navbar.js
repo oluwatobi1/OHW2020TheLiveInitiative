@@ -6,17 +6,20 @@ var html = '<nav class="navbar navbar-expand-lg navbar-light bg-light zone">\
       <img src="assests/logo.jpg" width="50" height="30" alt="">\
     </a>\
   </nav>\
-<a class="navbar-brand" href="#">\LIVE INITIATIVE</a>\
+<a class="navbar-brand" href="index.html">\LIVE INITIATIVE</a>\
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">\
 <span class="navbar-toggler-icon">\</span>\
 </button>\
 <div class="collapse navbar-collapse" id="navbarSupportedContent">\
 <ul class="navbar-nav mr-auto">\
   <li class="nav-item active ">\
-    <a class="nav-link" href="#">\Our Programs <span class="sr-only">\(current)</span>\</a>\
+    <a class="nav-link" href="OurPrograms.html">\Our Programs <span class="sr-only">\(current)</span>\</a>\
   </li>\
   <li class="nav-item active">\
-    <a class="nav-link" href="#">\About us <span class="sr-only">\(current)</span>\</a>\
+    <a class="nav-link" href="new-au.html">\About us <span class="sr-only">\(current)</span>\</a>\
+  </li>\
+  <li class="nav-item active">\
+    <a class="nav-link" href="Missions.html">\Our Mission <span class="sr-only">\(current)</span>\</a>\
   </li>\
   <li class="nav-item active">\
     <a class="nav-link" href="#">\The Brains <span class="sr-only">\(current)</span>\</a>\
