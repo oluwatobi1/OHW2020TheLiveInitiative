@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 html{
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 body{
     margin: 0 auto;
@@ -12,23 +12,14 @@ body{
     transition: palegoldenrod 0.2s ease 0s;
     box-shadow: 0 0 4px grey;
 }
-nav ul li{
-    padding-top:10px;
-    padding: 20px;
-}
-nav ul li:hover{
-    background-color: crimson;
-}
+
 nav ul li a:hover{
     color: white;
 }
 .navToggle{
 display: none;
 }
-.menu{
- display: flex;
- margin-left: auto;
-}
+
 #menu{
     padding-top:30px;
 }
@@ -42,7 +33,7 @@ display: none;
   display: flex;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory; 
+  scroll-snap-type: x mandatory;
 }
 .slides > div {
   /* CURRENT way. */
@@ -67,7 +58,7 @@ display: none;
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
-/* 
+/*
     use flex so we have one direction row as needed for header.
     since creating <nav> we want to remove the dots (list-style).
     again, we want to remove set margin by div and reset it so margin: 0
@@ -80,8 +71,9 @@ display: none;
     font-size: 1rem;
 }
 
-a:hover {
-    color: crimson;
+.shift{
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /*
@@ -118,7 +110,7 @@ a:hover {
 }
 .logo{
     width: 45%;
-    
+
 }
 
 /*
@@ -135,7 +127,7 @@ a:hover {
 */
 .values li, .audience li, .contact li {
     font-size: 1rem;
-    
+
 }
 
 a {
@@ -160,10 +152,10 @@ a {
  /*
     We use flex since we want to keep things simple (just center content).
     After setting flex, justify-content centers content horizontal (X axis) within container and align-items centers vertical (Y axis)
-    finally, vh is "view height", and from 0%-100% describes how much of the screen browser to fill out. 
+    finally, vh is "view height", and from 0%-100% describes how much of the screen browser to fill out.
     As we change height of screen, it'll auto adjust height to 100% of it
  */
-.container {
+.containers {
     /* vh = view height. We do this to make sure banner fills entire view */
     height: 100vh;
     display: flex;
@@ -173,7 +165,7 @@ a {
 
 /*
 We set the image within the cover layout
-rem = relative to font-size of root element. This is since we've created different font size to vary based on screen, 
+rem = relative to font-size of root element. This is since we've created different font size to vary based on screen,
 so this will automatically change this as well
 */
 .cover {
@@ -202,7 +194,7 @@ so this will automatically change this as well
  *  Body card grid
  **********************************************************************/
 /*
-As described at top of page, we want to create a grid of blocks so we'll use grid this time. 
+As described at top of page, we want to create a grid of blocks so we'll use grid this time.
     grid-template-columns sets the style of each column (or div). FYI: If we were to just set 1fr, we would see just one block per column.
     So we set it to repeat (just like typing 1fr 1fr ...) and autofill display with anything from min 350px to whole screen (1fr)
     Finally, we set a grid gap of 20px (padding like)
@@ -294,4 +286,3 @@ footer p {
 .contact ul{
     list-style-type: none;
 }
-
